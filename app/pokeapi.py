@@ -32,7 +32,7 @@ def main():
     print("-=-=-=-= Que Pokémon tem esta descrição? -=-=-=-=")
     print(descricao, pokemonId)
     while(True):
-        
+
         resposta = input(" -> ")
         if(resposta == pokemon["name"]):
             print("Acertou!")
